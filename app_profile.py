@@ -25,6 +25,7 @@ menu = st.sidebar.radio(
 name = "Mr. Christian J.T. van der Merwe"
 field = "Computational Astrophysics"
 institution = "University of Cape Town | South African Astronomical Observatory"
+email = "christianvdm@saao.ac.za"
 
 if menu == "Researcher Profile":
     
@@ -65,5 +66,4 @@ elif menu == "Publications":
 # Add a contact section
 elif menu == "Contact":
     st.header("Contact Information")
-    email = "jane.doe@example.com"
     st.write(f"You can reach {name} at {email}.")
