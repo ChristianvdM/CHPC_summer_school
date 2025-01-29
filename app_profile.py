@@ -44,9 +44,6 @@ elif menu == "Research":
     video_bytes = video_file.read()
     st.video(video_bytes)
 
-    st.write('To see our latest publications on this work click the button below:')
-    st.button('Latest articles', type='secondary',on_click=switch_page("Publications"))
-
 # Add a section for publications
 elif menu == "Publications":
     st.header("Publications")
