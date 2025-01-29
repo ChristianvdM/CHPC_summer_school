@@ -34,7 +34,8 @@ if menu == "Researcher Profile":
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
 
-    st.image('./astronaut.jpg', caption='Random caption beacuase I can')
+    st.image('./astronaut.jpg') 
+    st.caption='Random caption beacuase I can')
 
 elif menu == "Research":
     st.header("Research")
@@ -42,7 +43,8 @@ elif menu == "Research":
 
     video_file = open('./q05_dmin025_split.mp4', 'rb')
     video_bytes = video_file.read()
-    st.video(video_bytes, caption='Another random caption appears!')
+    st.video(video_bytes) \
+    st.caption='Another random caption appears!')
 
 # Add a section for publications
 elif menu == "Publications":
