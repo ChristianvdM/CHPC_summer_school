@@ -43,7 +43,9 @@ elif menu == "Research":
     video_file = open('./q05_dmin025_split.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
-    st.caption='Another random caption appears!'
+
+    st.write('To see our latest publications on this work click the button below:')
+    st.button('Latest articles', type='secondary',on_click=nav_page("Publications))
 
 # Add a section for publications
 elif menu == "Publications":
