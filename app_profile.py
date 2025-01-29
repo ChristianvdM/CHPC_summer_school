@@ -22,12 +22,11 @@ menu = st.sidebar.radio(
     ["Researcher Profile", "Publications", "Contact"],
 )
 
+name = "Mr. Christian J.T. van der Merwe"
+field = "Computational Astrophysics"
+institution = "University of Cape Town | South African Astronomical Observatory"
 
 if menu == "Researcher Profile":
-    # Collect basic information
-    name = "Mr. Christian J.T. van der Merwe"
-    field = "Computational Astrophysics"
-    institution = "University of Cape Town | South African Astronomical Observatory"
     
     # Display basic profile information
     st.write(f"**Name:** {name}")
