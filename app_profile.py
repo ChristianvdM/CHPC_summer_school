@@ -19,7 +19,7 @@ st.title("Researcher Overview")
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio(
     "Go to:",
-    ["Researcher Profile", "Publications", "Contact"],
+    ["Researcher Profile", "Research", "Publications", "Contact"],
 )
 
 name = "Mr. Christian J.T. van der Merwe"
@@ -33,6 +33,8 @@ if menu == "Researcher Profile":
     st.write(f"**Name:** {name}")
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
+
+    st.image("./")
 
 # Add a section for publications
 elif menu == "Publications":
