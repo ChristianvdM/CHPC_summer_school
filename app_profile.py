@@ -9,8 +9,19 @@ Created on Wed Jan 29 14:22:41 2025
 import streamlit as st
 import pandas as pd
 
+
+# Set page title
+st.set_page_config(page_title="Researcher Profile", layout="wide")
 # Title of the app
 st.title("Researcher Overview")
+
+# Sidebar Menu
+st.sidebar.title("Navigation")
+menu = st.sidebar.radio(
+    "Go to:",
+    ["Researcher Profile", "Publications", "STEM Data Explorer", "Contact"],
+)
+
 
 # Collect basic information
 name = "Mr. Christian J.T. van der Merwe"
@@ -18,7 +29,6 @@ field = "Computational Astrophysics"
 institution = "University of Cape Town | South African Astronomical Observatory"
 
 # Display basic profile information
-st.header("Researcher Overview")
 st.write(f"**Name:** {name}")
 st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
