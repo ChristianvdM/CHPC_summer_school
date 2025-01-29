@@ -19,7 +19,7 @@ st.title("Researcher Overview")
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio(
     "Go to:",
-    ["Researcher Profile", "Publications", "STEM Data Explorer", "Contact"],
+    ["Researcher Profile", "Publications", "Contact"],
 )
 
 
@@ -35,7 +35,7 @@ if menu == "Researcher Profile":
     st.write(f"**Institution:** {institution}")
 
 # Add a section for publications
-    elif menu == "Publications":
+elif menu == "Publications":
     st.header("Publications")
     uploaded_file = st.file_uploader("Upload a CSV of Publications", type="csv")
     
