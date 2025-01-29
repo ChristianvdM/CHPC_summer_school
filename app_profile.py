@@ -34,8 +34,7 @@ if menu == "Researcher Profile":
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
 
-    st.image('./astronaut.jpg') 
-    st.caption='Random caption beacuase I can'
+    st.image('./astronaut.jpg',caption='Random caption beacuase I can')
 
 elif menu == "Research":
     st.header("Research")
