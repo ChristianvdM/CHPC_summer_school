@@ -10,12 +10,12 @@ import streamlit as st
 import pandas as pd
 
 # Title of the app
-st.title("Researcher Profile Page")
+st.title("Researcher Overview")
 
 # Collect basic information
-name = "Dr. Jane Doe"
-field = "Astrophysics"
-institution = "University of Science"
+name = "Mr. Christian J.T. van der Merwe"
+field = "Computational Astrophysics"
+institution = "University of Cape Town | South African Astronomical Observatory"
 
 # Display basic profile information
 st.header("Researcher Overview")
