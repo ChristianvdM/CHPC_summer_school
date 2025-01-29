@@ -36,6 +36,11 @@ if menu == "Researcher Profile":
 
     st.image('./astronaut.jpg')
 
+elif menu == "Research":
+    st.header("Research")
+    st.subheader("3D hydrodynamic simulations of white dwarf-main-sequence star collisions")
+    st.video('./q05_dmin025.mp4')
+
 # Add a section for publications
 elif menu == "Publications":
     st.header("Publications")
