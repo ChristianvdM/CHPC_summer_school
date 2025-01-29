@@ -34,7 +34,7 @@ if menu == "Researcher Profile":
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
 
-    st.image("./")
+    st.image("./astronaut.png")
 
 # Add a section for publications
 elif menu == "Publications":
