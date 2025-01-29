@@ -45,7 +45,7 @@ elif menu == "Research":
     st.video(video_bytes)
 
     st.write('To see our latest publications on this work click the button below:')
-    st.button('Latest articles', type='secondary',on_click=nav_page("Publications))
+    st.button('Latest articles', type='secondary',on_click=nav_page("Publications"))
 
 # Add a section for publications
 elif menu == "Publications":
