@@ -40,7 +40,7 @@ elif menu == "Research":
     st.header("Research")
     st.subheader("3D hydrodynamic simulations of white dwarf-main-sequence star collisions")
 
-    video_file = open('./q05_dmin025.mp4', 'rb')
+    video_file = open('./q05_dmin025_split.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
 
